@@ -31443,3 +31443,10 @@ span.select2-selection.select2-selection--single:focus {
 .accordion-card .accordion-button::after {right: 10px;}
 .hero-title {
   font-size: 50px;}
+  .swiper-autoheight .swiper-wrapper, .swiper-slide{height: 500px !important;}
+  .hero-style2 {
+  position: relative;
+  z-index: 6;
+  margin: 80px 0;
+  max-width: 620px;
+}
