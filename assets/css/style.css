@@ -31410,3 +31410,36 @@ span.select2-selection.select2-selection--single:focus {
 
 
 .z-index-9{z-index: 9;}
+
+.carousel-indicators a.thumbnail {
+  width: 100px;
+}
+.carousel-indicators a.thumbnail:not(.active) {
+  opacity: 0.7;
+}
+.carousel-indicators {
+  position: static;
+}
+.product-big-img {
+  background-color:#fff;}
+@media screen and (min-width: 992px) {
+  .carousel {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+}
+
+#productGallery .carousel-indicators{margin: 15px 0 0;}
+#productGallery{border: solid 1px #ccc;
+  padding: 0 0 15px;}
+
+  .widget_categories .accordion-card .accordion-body{padding: 10px 10px 20px 10px;}
+  .widget_categories a{padding: 10px 5px 10px 5px;margin: 0;}
+  .widget_categories a::before{top: 10px;right: 15px;}
+    .widget_categories .accordion-card .accordion-button{padding: 12px 20px 12px 15px;font-size: 16px;}
+    .accordion-card.style2:not(:last-child) {
+  margin-bottom: 5px;
+}
+.accordion-card .accordion-button::after {right: 10px;}
+.hero-title {
+  font-size: 50px;}
